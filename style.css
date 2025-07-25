@@ -1,5 +1,9 @@
 /* font  */
+body{
+    overflow-x: hidden;
+    /* max-width: 80%; */
 
+}
 body p{
     color: rgba(0, 0, 0, 0.5);
     font-family: Inter;
@@ -50,3 +54,95 @@ text-align: left;
     display: flex;
     justify-content: space-around;
 }
+/* our plant */
+.card-text{
+    color: rgb(17, 17, 17);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 150%;
+/* text-align: center; */
+}
+.btn{
+    background: rgb(233, 90, 8);
+    color: white;
+    border: none;
+    padding: 10px 75px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px
+}
+/* flower lover part */
+.flower-lover{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.flower-text-right{
+    text-align: center;
+    align-items: center;
+}
+/* latest deals */
+.deals-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.deal-img-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* border-radius: 10px; */
+    /* height:50px; */
+}
+.deal-img-left{
+    margin: 10px 20px;
+}
+.join-container{
+ background: url(./assets/news-letter-bg.png);
+ height: 530px;
+ background-size: cover;
+}
+.join-box{
+    text-align: center;
+    margin-top: 40px;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+.input-box{
+   padding:8px 40px;
+}
+.join-text{
+    margin-top: 40px;
+    color: white;
+    text-align:center;
+}
+
+
+
+
+
+
+
+/* footer area */
+.footer-box{
+    display: flex;
+}
+.footer-link{
+    list-style: none;
+}
+a{
+    display: flex;
+
+    text-decoration: none;
+
+}
+.footer-left{
+    align-items: left;
+}
+
+
