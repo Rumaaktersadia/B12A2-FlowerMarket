@@ -262,6 +262,38 @@ margin: 50px 60px;
 /* RESPONSIVE STYLE */
 
 @media screen and (max-width:576px){
-    
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-link{
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .deal-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+        padding: 10px;
+
+    }
+    body{
+        padding:60px;
+    }
+
+.nav-items{
+    visibility: hidden;
+}
+.fa-solid fa-cart-shopping{
+
+
+
+/* visibility: inherit; */
 }
 
+
+}
