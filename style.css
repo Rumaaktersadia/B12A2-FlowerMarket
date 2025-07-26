@@ -1,7 +1,9 @@
 /* font  */
 body{
     overflow-x: hidden;
-    /* max-width: 80%; */
+     max-width: 100%;
+     padding: 0 130px;
+    
 
 }
 body p{
@@ -37,8 +39,7 @@ body p{
     font-family: Noto Serif;
 font-size: 50px;
 font-weight: 700;
-letter-spacing: 0%;
-text-align: left;
+text-align: center;
 color:rgb(233, 90, 8) ;
 }
 .banner-tittle{
@@ -51,10 +52,28 @@ color:rgb(0, 0, 0)
 text-align: left;
 }
 .banner{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 /* our plant */
+.plant{
+    min-width: 100%;
+}
+.card1 img {
+    /* height: 300px; */
+    width: 100%;
+}
+.plant-tittle{
+    text-align: center;
+    align-items:center;
+}
+.plant-text{
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:rgb(0, 0, 0)
+}
 .card-text{
     color: rgb(17, 17, 17);
 font-family: Inter;
@@ -72,7 +91,9 @@ line-height: 150%;
 .img-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:20px
+    gap:20px;
+    /* margin-right:5px; */
+    /* width: 80%; */
 }
 /* flower lover part */
 .flower-lover{
@@ -84,42 +105,108 @@ line-height: 150%;
     text-align: center;
     align-items: center;
 }
+.flower-lover{
+    padding-top: 50px;
+}
+.img-left{
+    position:relative;
+
+}
+.badge img{
+height:250px;
+width: 250px;
+position:absolute;
+top:-70px;
+right:-70px;
+}
+.li-text1{
+    color: rgba(0, 0, 0, 0.5);;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;   
+}
+
 /* latest deals */
+.orange-text1{
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(233, 90, 8) ;
+    }
+
 .deals-text{
     align-items: center;
     text-align: center;
     justify-content: center;
-
+    font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+}
+.paragraph-text{
+    text-align: center;
 }
 .deal-img-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap: 5px;
+    /* max-width: 80%; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
     /* border-radius: 10px; */
     /* height:50px; */
 }
 .deal-img-left{
-    margin: 10px 20px;
+    margin: 0 8px;
 }
+.bloom-img{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.ana-img{
+    height: 200px;
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+}
+.zabo-img{
+    border-radius: 10px;
+    height: 415px;
+width:650px;
+}
+
 .join-container{
  background: url(./assets/news-letter-bg.png);
  height: 530px;
  background-size: cover;
+ background-position: center;
+ margin: 50px ;
+ width: 100%;
+
 }
 .join-box{
+    padding: 100px;
     text-align: center;
-    margin-top: 40px;
-
+    /* display: flex; */
+    /* margin-top: 40px;
+    margin-left: 20px; */
     /* align-items: center;
     justify-content: center; */
+/* position: relative; */
 }
 .input-box{
    padding:8px 40px;
+   /* position: absolute; */
+   /* right: 100px; */
+   /* width: 300px; */
 }
 .join-text{
-    margin-top: 40px;
+    /* margin: 40px; */
     color: white;
     text-align:center;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -129,6 +216,10 @@ line-height: 150%;
 
 
 /* footer area */
+.footer{
+    /* max-width: 1440px; */
+    margin: 36px;
+}
 .footer-box{
     display: flex;
 }
@@ -145,4 +236,32 @@ a{
     align-items: left;
 }
 
+.footer-menu{
+    display: flex;
+    /* justify-content: space-around;
+     */
+    }
+    .footer-menu-left{
+        margin-left:  30px;
+        margin-top: 20px;
+        line-height: 40px;
+    }
+
+    .footer-menu-right{
+        margin-left:  30px;
+        margin-top: 20px;
+        line-height: 40px;
+    }
+.footer-icon{
+margin: 50px 60px;
+}
+.icon{
+    margin-left: 8px;
+}
+
+/* RESPONSIVE STYLE */
+
+@media screen and (max-width:576px){
+    
+}
 
