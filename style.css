@@ -163,6 +163,8 @@ line-height: 40px;
 .bloom-img{
     margin-bottom: 10px;
     border-radius: 10px;
+/* background-color: ; */
+/* background: rgba(0, 0, 0, 0.4) */
 }
 
 .ana-img{
@@ -294,6 +296,8 @@ margin: 50px 60px;
 
 /* visibility: inherit; */
 }
+.bloom-img{
 
+}
 
 }
